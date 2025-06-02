@@ -836,7 +836,7 @@ app.listen(PORT, () => {
     🕉️  VAIDIK ANUSTHAN SERVER STARTED  🕉️
     ========================================
     
-    🌐 Server running on: http://localhost:${PORT}
+    🌐 Server running on: https://website-backend-tf7k.onrender.com:${PORT}
     📧 Email service: ${process.env.EMAIL_USER ? 'Configured' : 'Not configured'}
     🔒 Security: Enabled
     📊 Rate limiting: Active
