@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "scripts": {
     "start": "try.js"
-  }
-}
-{
+  },
+"engines": {
+     "node": "18.x" 
+},
+
   "dependencies": {
     "body-parser": "^2.2.0",
     "cors": "^2.8.5",
@@ -13,15 +15,7 @@
     "mongoose": "^8.15.0",
     "some-module": "^0.0.3",
     "xlsx": "^0.18.5"
-  },
-  "name": "backend-",
-  "version": "1.0.0",
-  "main": "try.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  }
 }
+  
+
