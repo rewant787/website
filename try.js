@@ -10,7 +10,6 @@ const path = require('path');
 
 // Create a new Express.js app instance
 
-
 // What do you want to do next?
 
 // ✅ Serve all files in the 'public' folder

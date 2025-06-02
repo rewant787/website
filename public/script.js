@@ -12,6 +12,8 @@ window.addEventListener('DOMContentLoaded', function() {
   });
   app.use(express.static(path.join(__dirname, 'public')));
 
+const app = express()
+const PORT = process.env.PORT || 4000;
 
   // Lazy loading images
   const lazyImages = document.querySelectorAll('img[data-src');
