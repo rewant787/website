@@ -9,7 +9,8 @@ const express = require('express');
 const path = require('path');
 
 // Create a new Express.js app instance
-
+const app = express()
+const PORT = process.env.PORT || 4000;
 // What do you want to do next?
 
 // ✅ Serve all files in the 'public' folder

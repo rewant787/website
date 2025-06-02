@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found - Vaidik Anusthan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%23007bff'/%3E%3Ctext x='50' y='65' font-size='40' text-anchor='middle' fill='white'%3E🕉️%3C/text%3E%3C/svg%3E">
+    <style>
+        .error-page {
+            animation: fadeInUp 1s ease-in-out;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .display-1 {
+            font-size: 8rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .om-symbol {
+            font-size: 3rem;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+    </style>
+</head>
+<body class="bg-light">
+    <div class="container">
+        <div class="row justify-content-center align-items-center min-vh-100">
+            <div class="col-md-8 col-lg-6 text-center">
+                <div class="error-page">
+                    <!-- Large 404 Number -->
+                    <h1 class="display-1 text-primary mb-4">404</h1>
+                    
+                    <!-- Om Symbol -->
+                    <div class="om-symbol mb-4">🕉️</div>
+                    
+                    <!-- Error Message -->
+                    <h2 class="h3 mb-4 text-dark">Page Not Found</h2>
+                    <p class="lead mb-4 text-muted">
+                        The page you're looking for seems to have taken a spiritual journey elsewhere. 
+                        Let us guide you back to the right path.
+                    </p>
+                    
+                    <!-- Action Buttons -->
+                    <div class="mb-4">
+                        <a href="/" class="btn btn-primary btn-lg me-3 mb-2">
+                            <i class="fas fa-home me-2"></i>Go Home
+                        </a>
+                        <a href="/#contact" class="btn btn-outline-primary btn-lg mb-2">
+                            <i class="fas fa-phone me-2"></i>Contact Us
+                        </a>
+                    </div>
+                    
+                    <!-- Quick Links -->
+                    <div class="row mt-5">
+                        <div class="col-md-4 mb-3">
+                            <div class="card h-100 shadow-sm">
+                                <div class="card-body text-center">
+                                    <i class="fas fa-calendar-plus fa-2x text-warning mb-3"></i>
+                                    <h6 class="card-title">Book Puja</h6>
+                                    <a href="/#booking" class="btn btn-sm btn-warning">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="card h-100 shadow-sm">
+                                <div class="card-body text-center">
+                                    <i class="fas fa-star fa-2x text-info mb-3"></i>
+                                    <h6 class="card-title">Astrology</h6>
+                                    <a href="/#astrology-booking" class="btn btn-sm btn-info">Consult Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="card h-100 shadow-sm">
+                                <div class="card-body text-center">
+                                    <i class="fas fa-om fa-2x text-success mb-3"></i>
+                                    <h6 class="card-title">Services</h6>
+                                    <a href="/#services" class="btn btn-sm btn-success">View All</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Info -->
+                    <div class="mt-5 p-4 bg-white rounded shadow-sm">
+                        <h6 class="mb-3">Need Immediate Help?</h6>
+                        <div class="row">
+                            <div class="col-md-6 mb-2">
+                                <a href="tel:+919339216754" class="btn btn-outline-success btn-sm w-100">
+                                    <i class="fas fa-phone me-2"></i>Call: +91-9339216754
+                                </a>
+                            </div>
+                            <div class="col-md-6 mb-2">
+                                <a href="https://wa.me/919339216754" class="btn btn-outline-success btn-sm w-100" target="_blank">
+                                    <i class="fab fa-whatsapp me-2"></i>WhatsApp
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Footer -->
+                    <div class="mt-4">
+                        <small class="text-muted">
+                            © 2024 Vaidik Anusthan & Puja - Shastri Krishna Prasad Khanal
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Auto redirect after 30 seconds -->
+    <script>
+        // Optional: Auto redirect to home after 30 seconds
+        setTimeout(function() {
+            if (confirm('Would you like to return to the homepage?')) {
+                window.location.href = '/';
+            }
+        }, 30000);
+    </script>
+</body>
+</html>
