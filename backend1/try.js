@@ -474,9 +474,9 @@ app.use((err, req, res, next) => {
 
 // Start server
 app.listen(PORT, () => {
-  console.log(`🚀 Server running at http://localhost:${PORT}`);
-  console.log(`📊 Admin dashboard: http://localhost:${PORT}/admin`);
-  console.log(`🏠 Website: http://localhost:${PORT}`);
+  console.log(`🚀 Server running at https://website-backend-tf7k.onrender.com:${PORT}`);
+  console.log(`📊 Admin dashboard: https://website-backend-tf7k.onrender.com:${PORT}/admin`);
+  console.log(`🏠 Website:https://website-backend-tf7k.onrender.com:${PORT}`);
 });
 
 // Graceful shutdown
