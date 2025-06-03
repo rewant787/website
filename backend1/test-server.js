@@ -17,5 +17,5 @@ app.get('/api/health', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`🚀 Test server running at http://localhost:${PORT}`);
+  console.log(`🚀 Test server running at https://website-backend-tf7k.onrender.com:${PORT}`);
 });
