@@ -21,3 +21,22 @@
 
   }
 }
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Yagya Puja | Online Astrology",
+  "image": "https://www.yagya-puja.com/logo.png",
+  "url": "https://www.yagya-puja.com.com",
+  "telephone": "+91-9339216754",
+  "description": " yagya puja .com is a Online puja booking and astrology consultation with trusted pandits.",
+  "address": {
+    "@type": "siliguri puja yagya ",
+    "streetAddress": "limbu basit siliguri yagya puja ",
+    "addressLocality": "siliguri",
+    "addressRegion": "IN",
+    "postalCode": "734008",
+    "addressCountry": "IN"
+  }
+}
+</script>
